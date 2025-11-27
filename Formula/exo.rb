@@ -17,7 +17,6 @@ class Exo < Formula
   depends_on "rustup" => :build
   depends_on "git-lfs" => :build
   depends_on "python@3.13"
-  depends_on "macmon"
 
   def install
     dashboard_dir = share/"dashboard"
